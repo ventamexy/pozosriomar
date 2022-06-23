@@ -191,7 +191,6 @@ h2::after {
 
 h3 {
     font-size: 1.8em;
-    color: #00a2ff;
     font-family: 'PT Sans', sans-serif;
     margin: 0;
     margin-bottom: 2em;
@@ -1008,7 +1007,6 @@ footer .contenedor>div {
 }
 
 footer h3 {
-    color: #ffffff;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 20px;
