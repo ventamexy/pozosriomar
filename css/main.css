@@ -254,38 +254,47 @@ h1.nombre-sitio span {
         top: 20px;
         right: 20px;
     }
+
     .char2 {
         top: 0px;
         left: -20px;
     }
+
     .char3 {
         top: 10px;
         right: 20px;
     }
+
     .char4 {
         top: 5px;
         right: 10px;
     }
+
     .char5 {
         top: 15px;
         right: 10px;
     }
+
     .char6 {
         top: 5px;
         left: 10px;
     }
+
     .char7 {
         top: 20px;
         left: -10px;
     }
+
     .char8 {
         top: 0;
         left: 10px;
     }
+
     .char9 {
         top: 10px;
         right: 20px;
     }
+
     .char10 {
         top: 20px;
         right: 20px;
@@ -298,21 +307,27 @@ h1.nombre-sitio span {
         justify-content: space-between;
         flex-wrap: wrap;
     }
+
     .centrar-columnas {
         justify-content: center;
     }
+
     .columnas-4 {
         flex: 0 0 calc(33.3% - 1rem);
     }
+
     .columnas-6 {
         flex: 0 0 calc(50% - 1rem);
     }
+
     .columnas-8 {
         flex: 0 0 calc(66.6% - 1rem);
     }
+
     .columnas-10 {
         flex: 0 0 calc(83.3% - 1rem);
     }
+
     .columnas-12 {
         flex: 0 0 100%;
     }
@@ -387,7 +402,7 @@ p.ciudad {
 }
 
 p.slogan {
-    text-transform: none!important;
+    text-transform: none !important;
 }
 
 p.slogan span {
@@ -412,8 +427,9 @@ h1.nombre-sitio {
 /** Barra **/
 
 div.barra {
-    background-color: #d30c0c;
     padding: 0px 0;
+    background-color: #d30c0c;
+    border-bottom: 3px solid #fff;
 }
 
 .fixed {
@@ -423,22 +439,6 @@ div.barra {
     left: 0;
     z-index: 2;
 }
-
-div.logo {
-    width: 80%;
-    float: left;
-}
-
-div.logo img {
-    width: 55%;
-}
-
-@media only screen and (min-width:768px) {
-    div.logo {
-        width: 33%;
-    }
-}
-
 
 /** Nav principal **/
 
@@ -465,22 +465,16 @@ nav.navegacion-principal a:hover {
     background-color: #fd0505fd;
 }
 
-nav.navegacion-principal a:last-child {
-    border: 2px solid #ffffff;
-    color: #ffffff;
-}
-
 nav.navegacion-principal a:hover {
     color: #ffffff;
 }
 
 @media only screen and (min-width:768px) {
     nav.navegacion-principal {
-        width: 67%;
-        float: right;
-        text-align: right;
+        text-align: center;
         display: block;
     }
+
     nav.navegacion-principal a {
         padding: 25px 10px;
         display: inline-block;
@@ -884,8 +878,8 @@ blockquote {
 }
 
 blockquote p {
-    text-align: center!important;
-    font-size: 1em!important;
+    text-align: center !important;
+    font-size: 1em !important;
     font-family: 'PT Sans', sans-serif;
     padding: 0 20px 0 65px;
 }
@@ -1263,7 +1257,7 @@ div.dia i {
 /* Colorbox **/
 
 div.cboxElement {
-    padding: 30px!important;
+    padding: 30px !important;
     text-align: center;
 }
 
@@ -1489,6 +1483,7 @@ table.registrados tr:nth-child(4n-1) {
    ========================================================================== */
 
 @media print {
+
     *,
     *:before,
     *:after,
@@ -1501,16 +1496,20 @@ table.registrados tr:nth-child(4n-1) {
         box-shadow: none !important;
         text-shadow: none !important;
     }
+
     a,
     a:visited {
         text-decoration: underline;
     }
+
     a[href]:after {
         content: " (" attr(href) ")";
     }
+
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
+
     /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
@@ -1519,11 +1518,13 @@ table.registrados tr:nth-child(4n-1) {
     a[href^="javascript:"]:after {
         content: "";
     }
+
     pre,
     blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
+
     /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
@@ -1531,19 +1532,23 @@ table.registrados tr:nth-child(4n-1) {
     thead {
         display: table-header-group;
     }
+
     tr,
     img {
         page-break-inside: avoid;
     }
+
     img {
         max-width: 100% !important;
     }
+
     p,
     h2,
     h3 {
         orphans: 3;
         widows: 3;
     }
+
     h2,
     h3 {
         page-break-after: avoid;
@@ -1570,7 +1575,7 @@ table.registrados tr:nth-child(4n-1) {
 }
 
 div.texto-nosotros p {
-    color: #000!important;
+    color: #000 !important;
 }
 
 @media (min-width: 768px) {
@@ -1676,6 +1681,7 @@ div.espaciado {
         display: flex;
         justify-content: space-between;
     }
+
     .servicio {
         flex: 0 0 calc(33.3% - 1rem);
     }
