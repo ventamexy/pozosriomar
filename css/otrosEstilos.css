@@ -356,3 +356,10 @@ nav.navegacion-principal a {
 .enviarMensaje:hover {
     background-color: #f7941e;
 }
+
+.menu-fijado {
+    width: 100%;
+    position: fixed!important;
+    top: 0!important;
+    z-index: 100;
+}

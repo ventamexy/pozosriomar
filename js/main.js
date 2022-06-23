@@ -28,9 +28,9 @@ $(document).on("scroll", function() {
 
     let scrollYPosicionActual = $(this)[0].scrollingElement.scrollTop;
     if ( scrollYPosicionActual >= 200 ) {
-        $(".navbar")[1].classList.add("menu-fijado");
+        $("#navbar")[0].classList.add("menu-fijado");
     } else {
-        $(".navbar")[1].classList.remove("menu-fijado");
+        $("#navbar")[0].classList.remove("menu-fijado");
     }
 
     var scrollY = $("window").context.scrollingElement;
@@ -43,7 +43,7 @@ $(document).on("scroll", function() {
         $(".irAbajo i").removeClass("transform-r-180");
         $(".irArriba").removeClass("irArriba").addClass("irAbajo");
     }
-    
+        
 });
 
 
