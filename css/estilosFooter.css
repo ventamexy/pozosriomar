@@ -91,7 +91,11 @@ footer a:hover {
     color: #fff!important;
 }
 
-.footer-informacion h3 span, .links.paginasWeb li a {
+.footer-informacion h3 span {
+    color: var(--color-secundario)!important;
+}
+
+.links.paginasWeb li a {
     color: #fff!important;
 }
 
